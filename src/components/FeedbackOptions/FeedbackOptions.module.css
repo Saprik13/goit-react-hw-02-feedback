@@ -1,0 +1,23 @@
+.button {
+    font-weight: 700;
+    display: block;
+    padding: 3px 7px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: rgba(226, 223, 223, 0.745);
+    border-color:rgba(71, 71, 71, 0.745);
+}
+
+.button:hover {
+    background-color: rgba(55, 225, 252, 0.745);
+    cursor: pointer;
+}
+
+.button:active {
+    background-color: rgba(2, 14, 236, 0.745);
+    cursor: pointer;
+}
+.buttonList {
+    display: inline-flex;
+}
